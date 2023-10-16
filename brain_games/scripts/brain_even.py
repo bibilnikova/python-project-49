@@ -10,7 +10,6 @@ from brain_games.scripts.brain_games import greet
 
 def even_or_odd():
     name = welcome_user()
-    flag = True
     print('Answer "yes" if the number is even, otherwise answer "no"')
     for _ in range(3):
         num = random.randint(1, 100)
@@ -23,10 +22,8 @@ def even_or_odd():
             print(f'"{answer}" is wrong answer ;(. '
                   f'Correct answer was "{correct_ans}".'
                   f'\nLet\'s try again!')
-            flag = False
-            break
-    if flag:
-        print(f'Congratulation, {name}!')
+            return None
+    print(f'Congratulation, {name}!')
 
 
 def main():
