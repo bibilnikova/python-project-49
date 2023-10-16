@@ -11,7 +11,6 @@ from brain_games.scripts.brain_games import greet
 def even_or_odd():
     name = welcome_user()
     flag = True
-    correct_ans = ''
     print('Answer "yes" if the number is even, otherwise answer "no"')
     for _ in range(3):
         num = random.randint(1, 100)
