@@ -12,7 +12,7 @@ def even_or_odd():
 
 
 def play():
-    sentance = 'Answer "yes" if the number is even, otherwise answer "no"'
+    sentance = 'Answer "yes" if the number is even, otherwise answer "no".'
     ans_type = 'string'
     return game_loop(even_or_odd, sentance, ans_type)
 
