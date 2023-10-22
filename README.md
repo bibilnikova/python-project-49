@@ -3,12 +3,12 @@
 
 <a href="https://codeclimate.com/github/bibilnikova/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/db0ecf0026348f0b5abc/maintainability" /></a>
 
-brain-games + brain-even: https://asciinema.org/a/uDA97XVjdMY4AQTJAwQDyZVpI
+brain-games + brain-even: https://asciinema.org/a/h4E897FzJ0J5fh87dqS4aIaOd
 
-brain-calc: https://asciinema.org/a/wBrYsdVRfatWFQTKMow5IWv3q
+brain-calc: https://asciinema.org/a/z3vIAzqnOFYVfiKjyw43bx3WB
 
-brain-gcd: https://asciinema.org/a/v1utgPOkebYC5AA3rizrjEzxj
+brain-gcd: https://asciinema.org/a/lxDLLMRjvkpS0UASVosLgq1RQ
 
-brain-progression: https://asciinema.org/a/T41EWz4sDPba0IqWoly2CnSdB
+brain-progression: https://asciinema.org/a/1ad4wv8pu4CC9BlncxmO3lW0K
 
-brain-prime: https://asciinema.org/a/QWVXi7HrK9rLrrROevLXqDRla
+brain-prime: https://asciinema.org/a/sDV2wuc6befT1Iq8NUng7h7ly

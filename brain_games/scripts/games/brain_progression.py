@@ -15,7 +15,7 @@ def progression():
         else:
             first_num += i
         arr.append(first_num)
-    rand_index = random.randint(0, len(arr))
+    rand_index = random.randint(0, len(arr)-1)
     correct_ans = arr[rand_index]
     arr[rand_index] = '..'
     question = f'Question: {" ".join(map(str, arr))}'

@@ -26,7 +26,7 @@ def game_loop(game, sentance, ans_type):
         question, correct_ans = game()
         if not ask_question_and_check_answer(question, correct_ans, ans_type):
             return
-    print(f'Congratulation, {name}!')
+    print(f'Congratulations, {name}!')
 
 
 def main():
