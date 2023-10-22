@@ -3,4 +3,5 @@
 
 <a href="https://codeclimate.com/github/bibilnikova/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/db0ecf0026348f0b5abc/maintainability" /></a>
 
-https://asciinema.org/a/uDA97XVjdMY4AQTJAwQDyZVpI
+brain-games + brain-even: https://asciinema.org/a/uDA97XVjdMY4AQTJAwQDyZVpI
+brain-calc: https://asciinema.org/a/wBrYsdVRfatWFQTKMow5IWv3q

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from .. cli import welcome_user
+from ..cli import welcome_user
 
 
 def greet():
