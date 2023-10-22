@@ -6,7 +6,7 @@ from ..game_logic import game_loop
 
 def gcd():
     num1, num2 = random.randint(1, 50), random.randint(1, 50)
-    question = f'Question {num1} {num2}'
+    question = f'Question: {num1} {num2}'
     while num1 != 0 and num2 != 0:
         if num1 > num2:
             num1 %= num2
