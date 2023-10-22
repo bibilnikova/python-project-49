@@ -7,7 +7,7 @@ from ..game_logic import game_loop
 def prime():
     num = random.randint(1, 100)
     if num > 1:
-        for i in range(2, int(num/2)+1):
+        for i in range(2, int(num / 2) + 1):
             if (num % i) == 0:
                 correct_ans = 'no'
                 break
