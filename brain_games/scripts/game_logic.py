@@ -3,7 +3,7 @@ import prompt
 from ..cli import welcome_user
 
 
-def ask_question_and_check_answer(question, correct_ans, answer_type):
+def ask_and_check(question, correct_ans, answer_type, name):
     print(question)
     if answer_type == 'integer':
         answer = prompt.integer('Your answer: ')
@@ -15,7 +15,7 @@ def ask_question_and_check_answer(question, correct_ans, answer_type):
     else:
         print(f'"{answer}" is wrong answer ;(. '
               f'Correct answer was "{correct_ans}".'
-              f'\nLet\'s try again!')
+              f'\nLet\'s try again, {name}!')
         return False
 
 
@@ -24,7 +24,7 @@ def game_loop(game, sentance, ans_type):
     print(sentance)
     for _ in range(3):
         question, correct_ans = game()
-        if not ask_question_and_check_answer(question, correct_ans, ans_type):
+        if not ask_and_check(question, correct_ans, ans_type, name):
             return
     print(f'Congratulations, {name}!')
 
